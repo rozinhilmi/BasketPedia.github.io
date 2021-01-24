@@ -1,0 +1,73 @@
+.box-form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.address{
+    width: 400px;
+    margin: auto;
+    background-color: #66afe9;
+}
+.box-mail{
+    width: 600px;
+    margin: auto;
+    background-color: salmon;
+}
+
+.box-mail h1{
+    font-size: 40px;
+    padding-bottom: 2%;
+    text-align: center;
+}
+.box-mail input,button{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.box-mail input{
+    margin: auto;
+    margin-top: 10px;
+    width: 80%;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.box-mail input:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+            box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+  }
+
+.box-mail button{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+@media (max-width: 780px){
+    .box-mail{
+        width: 100%;
+        margin-top: 30px;
+
+    }
+    .box-mail input, button{
+        margin: 20px auto;
+    }
+    
+    .address{
+        width: 100%;
+        margin: auto;
+        background-color: #66afe9;
+    }
+}

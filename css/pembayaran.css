@@ -1,0 +1,188 @@
+
+.payment-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.payment-list{
+    display: block;
+    width: 400px;   
+    margin: 20px auto;
+    
+}
+.box-item{  
+    width: 400px;
+    height: auto;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px  rgb(165, 164, 164);
+    font-size: 17px;
+    color: rgb(116, 116, 116);
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin: 0px auto;
+    padding-bottom: 20px;
+}
+.box-item img{
+    width: 100%;
+    height: 8cm;
+    transition: 0.2s;
+    padding-top: 25px;
+    display: block;
+}
+
+.box-item a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(39, 39, 39);
+    font-size: 20px;
+    font-weight: bold;
+}
+.popular .box-item p{
+    margin-bottom: 20px;
+}
+.box-item h1 :hover{
+    color: orange;
+}
+
+
+
+/* ===================bodyform============================= */
+.body-form {   
+    display: block;
+    width: 400px;   
+    margin: 20px auto;
+    background-color:rgb(245, 245, 245);
+    
+}
+.panel-heading{
+    border-top: 1px solid rgb(218, 217, 217);
+    border-left: 1px solid rgb(218, 217, 217);
+    border-right: 1px solid rgb(218, 217, 217);
+    margin-bottom: -5px;
+}
+.panel-heading h3{
+    margin-top: 3px;
+    font-size: x-large;
+    line-height: 80px;
+    
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(59, 59, 59);
+    font-weight: lighter;
+    
+    margin-bottom: -15px;
+}
+.panel-heading .atm{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 1.7cm;
+    margin-bottom: 5px;
+}
+
+.panel-form{
+    border-top: 1px solid rgb(218, 217, 217);
+    border-left: 1px solid rgb(218, 217, 217);
+    border-right: 1px solid rgb(218, 217, 217);
+    background-color: white;
+    margin-bottom: -15px;
+   
+}
+.panel-form .row {
+    margin-left: 15px;
+    margin-left: 5%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    /* display: inline; */
+}
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgb(59, 59, 59);
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+  } 
+
+.form-control {
+  display: block;
+  margin-right: auto;
+  width: 75%;
+  height: 22px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+.ganjel {
+  color: white;
+  user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  -khtml-user-select:none;
+  -webkit-user-select:none;
+}
+/* ===================footer pada form================ */
+.panel-footer {
+    border-top: 1px solid rgb(218, 217, 217);
+    border-left: 1px solid rgb(218, 217, 217);
+    border-right: 1px solid rgb(218, 217, 217);
+    border-bottom: 1px solid rgb(218, 217, 217);
+
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.btn-warning {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  color: #fff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.btn-lg,
+.btn-group-lg > .btn {
+padding: 10px 16px;
+font-size: 18px;
+line-height: 1.3333333;
+border-radius: 6px;
+}
+
+@media (max-width: 450px){
+    .payment-list, .body-form, .payment-list .box-item{
+        width: 100%;
+    }
+
+}
+@media (max-width: 1000px){
+    .container{
+        height: auto;
+    }
+}

@@ -1,0 +1,71 @@
+
+.container{
+    height: auto;
+    padding-top: 2cm;
+}
+.middle{
+    width: 90%;
+    background-color: white;
+    overflow: auto;
+    margin: 0cm auto;
+    box-shadow: 5px 5px 5px 5px  rgb(165, 164, 164);
+}
+.middle h1{
+    font-size: 35px;    
+    margin : auto;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.box-item{  
+    background-color: white;
+    width: 300px;
+    display: inline-flex;
+    margin-bottom: 4%;
+    border-style: solid;
+    padding: 3%;
+    
+}
+.box-item p{
+    
+    color: rgb(59, 59, 59);
+    font-size: 15px;
+}
+.box-value-kiri{
+    width: 120%;
+    float: left;
+    
+}
+
+.box-value-kanan{
+    width: 40%;
+    float: left;
+    text-align: end;
+}
+
+.box-value-kiri img{
+   width: 200px;   
+}
+ .box-value-kanan img{
+    width: 100px;
+    transition: 8s;
+    
+}
+.box-value-kanan:hover img{
+    transform: rotate(3600deg);
+}
+.box-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+}
+.cf:after {
+    clear: both;
+}
+
+@media (max-width: 400px){
+    .middle h1{
+        font-size: 27px; 
+    }   
+}

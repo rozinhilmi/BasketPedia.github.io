@@ -1,0 +1,13 @@
+.slider{
+    background-image: url("../images/store.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+}
+.slider h1{
+    margin: auto;
+    font-weight:bold;
+    font-size: 80px;
+    color: white;
+}

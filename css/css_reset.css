@@ -122,12 +122,18 @@ a{
 }
 
 
-/* .footer{
-
+.footer{
 	width: 100%;
 	height: 3cm;
 	background-color: cornflowerblue;
-} */
+	display: flex;
+}
+.footer h1{
+	margin: auto;
+	font-size: 25px;
+	font-weight: bolder;
+	color: rgb(37, 37, 37);
+}
 
 @media (max-width : 520px){
 	.navbar1{

@@ -26,6 +26,7 @@
 	background-color: rgba(148, 148, 218, 0.534);
 	border: 0ch;
 }
+
 @keyframes zoom{
 	0%{transform: scale(1.5);opacity: 0;}
 	100%{transform: scale(1);opacity: 1;}
